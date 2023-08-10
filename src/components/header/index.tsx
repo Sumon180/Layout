@@ -9,8 +9,8 @@ const Topbar = () => {
 
   return (
     <div
-      className={`transition-all duration-500 ${
-        isToggled ? "left-[12.54rem]" : "left-[4.54rem]"
+      className={`transition-all duration-300 ${
+        isToggled ? "left-[15.54rem]" : "left-[4.54rem]"
       } fixed bg-white right-0 top-0   border-b h-16 flex items-center justify-between p-4`}
     >
       {/* Topbar content */}
