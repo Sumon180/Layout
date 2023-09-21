@@ -1,10 +1,10 @@
 // src/app/store.ts
-import { configureStore } from '@reduxjs/toolkit';
-import toggleReducer from '../features/layoutSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import layoutSlice from "./layoutSlice";
 
 const store = configureStore({
   reducer: {
-    toggle: toggleReducer,
+    toggle: layoutSlice,
   },
 });
 

@@ -1,7 +1,7 @@
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
-import { toggle } from "../../features/layoutSlice";
-import { RootState } from "../../app/store";
+import { RootState } from "../../redux/store";
+import { toggle } from "../../redux/layoutSlice";
 
 const Topbar = () => {
   const isToggled = useSelector((state: RootState) => state.toggle.isToggled);

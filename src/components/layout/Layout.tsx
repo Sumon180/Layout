@@ -2,8 +2,8 @@ import { FC, ReactNode } from "react";
 import Topbar from "../header";
 import Sidebar from "../sidebar";
 import { useSelector } from "react-redux";
-import { RootState } from "../../app/store";
 import Footer from "../footer";
+import { RootState } from "../../redux/store";
 
 interface layoutProps {
   children: ReactNode;

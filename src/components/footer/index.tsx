@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { RootState } from "../../app/store";
+import { RootState } from "../../redux/store";
 
 const Footer = () => {
   const isToggled = useSelector((state: RootState) => state.toggle.isToggled);
